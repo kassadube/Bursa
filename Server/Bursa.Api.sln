@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bursa.Api", "Bursa.Api\Bursa.Api.csproj", "{48BD0506-62E6-47ED-A6CA-85E75531740F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{F9B7A16D-05BA-49C6-9084-F05691FC2A26}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{594231C3-F643-4AAC-A0C6-B65A4AF199C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{15842F26-043E-43CE-9228-999BCD1E0053}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{3627616A-0E67-4F91-8419-589B9FDE6B96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bursa.Model", "Bursa.Model\Bursa.Model.csproj", "{E8477BBC-7B65-471B-B082-00FB19B45124}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bursa.Data", "Bursa.Data\Bursa.Data.csproj", "{7122750A-1DC3-4587-BB40-89F2676D2DF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48BD0506-62E6-47ED-A6CA-85E75531740F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48BD0506-62E6-47ED-A6CA-85E75531740F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48BD0506-62E6-47ED-A6CA-85E75531740F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48BD0506-62E6-47ED-A6CA-85E75531740F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8477BBC-7B65-471B-B082-00FB19B45124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8477BBC-7B65-471B-B082-00FB19B45124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8477BBC-7B65-471B-B082-00FB19B45124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8477BBC-7B65-471B-B082-00FB19B45124}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7122750A-1DC3-4587-BB40-89F2676D2DF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7122750A-1DC3-4587-BB40-89F2676D2DF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7122750A-1DC3-4587-BB40-89F2676D2DF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7122750A-1DC3-4587-BB40-89F2676D2DF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{48BD0506-62E6-47ED-A6CA-85E75531740F} = {594231C3-F643-4AAC-A0C6-B65A4AF199C6}
+		{E8477BBC-7B65-471B-B082-00FB19B45124} = {F9B7A16D-05BA-49C6-9084-F05691FC2A26}
+		{7122750A-1DC3-4587-BB40-89F2676D2DF1} = {15842F26-043E-43CE-9228-999BCD1E0053}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7298B271-C03E-43DC-9533-92018B1F11EE}
+	EndGlobalSection
+EndGlobal

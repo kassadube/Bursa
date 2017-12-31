@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.50.4" />
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.4.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Bursa.Model\Bursa.Model.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Toolkit">
+      <HintPath>..\Dependencies\Toolkit.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
